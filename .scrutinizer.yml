@@ -41,14 +41,14 @@ filter:
 
 coding_style:
   php:
-    spaces:
-      around_operators:
-        concatenation: true
     indentation:
       general:
-        use_spaces: true
+        use_tabs: false
         size: 4
     braces:
       classes_functions:
         class: new-line
         function: same-line
+    spaces:
+      around_operators:
+        concatenation: true
