@@ -48,7 +48,7 @@ coding_style:
     braces:
       classes_functions:
         class: new-line
-        function: same-line
+        function: end-of-line
     spaces:
       around_operators:
         concatenation: true
