@@ -3,15 +3,13 @@ checks:
     code_rating: true
     duplication: true
     variable_existence: true
-    useless_call: true
+    useless_calls: true
     return_doc_comments: true
     parameter_doc_comments: true
     assignment_of_null_return: true
-    no_unreachable_code: true
     no_trailing_whitespace: true
     one_class_per_file: true
     no_short_open_tag: true
-    no_mixed_assignments: true
     no_debug_code: true
 
 tools:
