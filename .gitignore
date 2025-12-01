@@ -1,0 +1,51 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (optional - tú decides)
+/composer.lock
+
+# PHPUnit results
+/coverage/
+.phpunit.result.cache
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+.tmp/
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+*.bak
+*.tmp
+
+# PHP built-in server artifacts
+phpserver.pid
+
+# Ignore temporary files created during development
+*.orig
+*.old
+
+# Node deps (just in case for future tooling)
+node_modules/
+
+# Ignore packed releases
+*.zip
+*.tar.gz
