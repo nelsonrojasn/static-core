@@ -3,7 +3,7 @@
 use Static\Core\Router;
 use Static\Core\Kernel;
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 $router = new Router();
 
